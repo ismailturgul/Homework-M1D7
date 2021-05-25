@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <title>Document</title>
 </head>
-<body>
-    <h1 id="Header" >Veganize IT</h1>
+<body id="background" style="background-color: withe;">
+    <h1>Veganize IT</h1>
     <table>
         <tr>
           <th>Product</th>
@@ -58,6 +57,11 @@
         {
             document.querySelector("h1").innerText=newHeader   
         }  
+
+        const backgroundChanger = function(color)
+        {
+            document.querySelector("#background").style.backgroundColor=color
+        }
 
       </script>
 </body>
