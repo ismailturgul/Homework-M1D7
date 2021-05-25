@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Veganize IT</h1>
+    <h1 id="Header" >Veganize IT</h1>
     <table>
         <tr>
           <th>Product</th>
@@ -52,5 +52,13 @@
       </footer>
       <textarea rows="5" cols="200">Enter your Message here</textarea>
       <input type="submit" name="submit" value="SEND">
+
+      <script>
+        const H1Changer = function(newHeader)
+        {
+            document.querySelector("h1").innerText=newHeader   
+        }  
+
+      </script>
 </body>
 </html>
