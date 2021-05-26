@@ -47,7 +47,7 @@
       </table>
       <footer>
         <p> <center>Name Shop: Veganize IT</center></p>
-        <p> <center><a href="http://127.0.0.1:5500/index.html">http://127.0.0.1:5500/index.html</center></p>
+        <p><a href="http://127.0.0.1:5500/index.html">http://127.0.0.1:5500/index.html</p>
       </footer>
       <textarea rows="5" cols="200">Enter your Message here</textarea>
       <input type="submit" name="submit" value="SEND">
@@ -55,17 +55,17 @@
       <script>
         const H1Changer = function(newHeader)
         {
-            document.querySelector("h1").innerText=newHeader   
+            document.querySelector("h1").innerText= newHeader   
         }  
 
         const backgroundChanger = function(color)
         {
-            document.querySelector("#background").style.backgroundColor=color
+            document.querySelector("#background").style.backgroundColor= color
         }
 
         const footerCHanger = function(newFooter)
         {
-            document.getElementsByTagName("footer")[0].getElementsByTagName("a href").innerHTML = newFooter
+            document.getElementsByTagName("footer")[0].innerHTML = newFooter 
         }
         
       </script>
